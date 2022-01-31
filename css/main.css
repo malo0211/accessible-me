@@ -85,5 +85,5 @@ label[for="submit"]{
   display: none;
 }
 #submit{
-  font-family: inherit;
+  font-family: 'Roboto', Helvetica, sans-serif;
 }
