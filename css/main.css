@@ -94,6 +94,19 @@ label[for="button"]{
   font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-#skip-links{
-  display:none;
+.skip-links{
+  padding:0;
+  margin:0;
+  list-style: none;
+}
+
+.skip-links a{
+  position:absolute;
+  top: -3em;
+  background-color: black;
+  color:white;
+  padding: 10px;
+}
+.skip-links a:focus{
+  top:0;
 }
