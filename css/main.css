@@ -84,6 +84,6 @@ label[for="yourmessage"]{
 label[for="submit"]{
   display: none;
 }
-#submit{
+::placeholder{
   font-family: 'Roboto', Helvetica, sans-serif;
 }
