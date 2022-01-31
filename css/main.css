@@ -84,3 +84,6 @@ label[for="yourmessage"]{
 label[for="submit"]{
   display: none;
 }
+#submit{
+  font-family: inherit;
+}
