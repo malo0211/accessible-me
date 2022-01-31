@@ -69,21 +69,31 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
 label[for="fullname"]{
   display: none;
 }
+
 label[for="email"]{
   display: none;
 }
+
 label[for="subject"]{
   display: none;
 }
+
 label[for="yourmessage"]{
   display: none;
 }
-#submit{
-  display: none;
+
+label[for="button"]{
+  display:none;
 }
+
 ::placeholder{
   font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+#skip-links{
+  display:none;
 }
