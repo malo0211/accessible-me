@@ -15,7 +15,12 @@
 <body>
   <div class="container">
     <div role="banner" class="site-header">
-      <h1>Jam Box Studios</h1>
+      <ul class="skip-links">
+      <a href="#skiplink1" class="skip"> Skip To Main Content</a>
+      <a href="#skiplink2" class="skip"> Skip To Owner Information</a>
+      <a href="#skiplink3" class="skip"> Skip To Contact</a>
+      </ul>
+      <h1 role="heading">Jam Box Studios</h1>
       <div role="navigation" class="main-nav">
         <ul>
           <li><a href="#">Home</a></li>
@@ -26,19 +31,19 @@
       </div>
       <img src="https://placekitten.com/1200/900" alt="close up of a kitten" class="banner">
     </div>
-    <div role="main" class="main-content">
-      <h1>Welcome to Jam Box</h1>
+    <div role="main" class="main-content" id="skiplink1">
+      <h1 role="heading">Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-      <div role=" class="owner>
-        <h1>Meet the owner</h1>
-        <ul role="contactpoint">
-          <li>Name: John Doe</li>
-          <li>Title: CEO</li>
-          <li>Email: johnjoe@jambox.ca</li>
-          <li>Phone: 613-000-0000</li>
+      <div class="owner" id="skiplink2">
+        <h1 role="heading">Meet the owner</h1>
+        <ul itemscope itemtype="https://schema.org/Person">
+          <li itemprop="name">John Doe</li>
+          <li itemprop="jobTitle">CEO</li>
+          <li itemprop="email">johnjoe@jambox.ca</li>
+          <li itemprop="telephone">613-000-0000</li>
         </ul>
-        <h1>Address</h1>
+        <h1 role="heading">Address</h1>
         <p role="PostalAddress">
           Jambox Studios
           123 Guitar Road,
@@ -46,8 +51,8 @@
           B3T 0L0
         </p>
       </div>
-      <div role="form" class="contact-section">
-        <h1>Contact Us</h1>
+      <div role="form" class="contact-section" id="skipink3">
+        <h1 role="heading">Contact Us</h1>
         <form action="thanks.html">
           <label for="fullname">Full Name</label>
             <input type="text" id="fullname" placeholder="Full Name">
@@ -57,7 +62,7 @@
             <input type="text" id="subject" placeholder="Subject">
           <label for="yourmessage">Your Message</label>
             <textarea id="yourmessage" placeholder="Your Message"></textarea>
-          <label>Send Button</label>
+          <label for="button">Send Button</label>
             <button type="submit" id="submit">Send</button>
         </form>
       </div>
