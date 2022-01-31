@@ -69,3 +69,18 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+#fullname{
+  display: none;
+}
+#email{
+  display: none;
+}
+#subject{
+  display: none;
+}
+#yourmessage{
+  display: none;
+}
+#submit{
+  display: none;
+}
