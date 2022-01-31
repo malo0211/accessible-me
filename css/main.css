@@ -81,7 +81,7 @@ label[for="subject"]{
 label[for="yourmessage"]{
   display: none;
 }
-label[for="submit"]{
+#submit{
   display: none;
 }
 ::placeholder{
