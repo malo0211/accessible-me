@@ -29,7 +29,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 .main-nav ul li {
@@ -109,4 +109,9 @@ label[for="button"]{
 }
 .skip-links a:focus{
   top:0;
+}
+
+.owner ul{
+  list-style: none;
+  padding: 0;
 }
